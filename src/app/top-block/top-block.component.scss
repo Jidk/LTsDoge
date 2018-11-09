@@ -1,0 +1,87 @@
+nav {
+    position: fixed;
+    /* 绝对定位，fixed是相对于浏览器窗口定位。 */
+    top: 0;
+    /* 距离窗口顶部距离 */
+    left: 0;
+    /* 距离窗口左边的距离 */
+    width: 100%;
+    /* 宽度设置为100% */
+    z-index: 99;
+    /* 层叠顺序，数值越大就越高。页面滚动的时候就不会被其他内容所遮挡。 */
+    div.bgc-w{
+      background-color: white;
+    }
+}
+
+div.topline {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, yellow, red);
+}
+
+li a {
+    font-size: 5px;
+    color: #bdc3c7;
+}
+
+
+
+div.rotate-div {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    /* IE 9 */
+    -moz-transform: rotate(30deg);
+    /* Firefox */
+    -webkit-transform: rotate(30deg);
+    /* Safari and Chrome */
+    -o-transform: rotate(30deg);
+    /* Opera */
+}
+
+div.topBar{
+  width: 100%;
+  height: 60px;
+  background-color: #2c3e50;
+  div.content {
+      height: 60px;
+      ul {
+          padding: 0;
+          height: 100%;
+          li {
+              float: left;
+              list-style: none;
+              box-sizing: border-box;
+              a {
+                  display: block;
+                  padding: 20px;
+                  height: 100%;
+                  color: white;
+                  font-size: 1rem;
+                  cursor: pointer;
+              }
+          }
+
+          li:hover,li.onclick{
+            background-color: orangered;
+          }
+      }
+  }
+}
+
+.scroll{
+  opacity: 0.9;
+}
+
+.test{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+
+.test2{
+  opacity: 0.3;
+}
