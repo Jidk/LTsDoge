@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    font-family: monospace;
+}
+
+div{
+  width: 60%;
+  margin: 0 auto;
+}
+
+div.main-content{
+  margin-top: 159px;
+}
+
+div.topUl {
+    height: 30px;
+}
+
+ul {
+  margin: 0px;
+}
+
+.topUl ul li {
+    padding: 0px 5px;
+    float: right;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
