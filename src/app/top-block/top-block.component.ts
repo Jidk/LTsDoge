@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { translate } from 'src/assets/ts/GCP-Translation';
 
 @Component({
   selector: 'app-top-block',
@@ -31,6 +32,10 @@ export class TopBlockComponent implements OnInit {
     });
 
     document.querySelector("#li-count").innerHTML = this.ul.childElementCount.toString();
+
+    let t = new translate();
+    t.dotest();
+
   }
 
   getScrollTop() {
